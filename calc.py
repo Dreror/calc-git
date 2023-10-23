@@ -25,3 +25,4 @@ def qua(x):
 def qb(x):
     return x ** 3
 
+
