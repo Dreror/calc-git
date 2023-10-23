@@ -42,3 +42,30 @@ while a in range(0, 8):
     while a not in range(0, 8):
         print("Невірне значення! Спробуйте ще раз")
         a = int(input("Що бажаете зробити? = "))
+    if a == 0:
+        print("Допобачення!")
+        break
+    if a <= 5:
+        print("Чудово! Введіть числo/а")
+        x1 = int(input("Num1= "))
+        y1 = int(input("Num2= "))
+        if a == 1:
+            print(add(x1, y1))
+        elif a == 2:
+            print(dis(x1, y1))
+        elif a == 3:
+            print(mul(x1, y1))
+        elif a == 4:
+            if y1 == 0:
+                print("Не можна ділити на ноль!")
+            else:
+                print(dell(x1, y1))
+        elif a == 5:
+            print(sqr(x1, y1))
+    elif 5 < a < 8:
+        print("Чудово! Введіть числo/а")
+        x1 = int(input("Num1= "))
+        if a == 6:
+            print(qua(x1))
+        elif a == 7:
+            print(qb(x1))
